@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action = "addMarchingBandServlet" method="post">
+Name of Band: <input type ="text" name = "name of band"><br />
+Number of Members: <input type = "text" name = "number of members"><br /> 
+Location of Band: <input type = "text" name = "location of band"><br />
+Level of Band: <select name="level of band"> 
+			<option value=1>Elementary</option>
+			<option value=2>Junior High</option>
+			<option value=3>High School</option>
+			</select><br />
+If props; Types of props: <input type = "text" name = "Type of Props"><br /> 
+
+Do you have a color guard? <select name = "Has colorguard">
+			<option value=yes>Yes</option>
+			<option value=no>No</option>
+			</select><br />
+
+<input type = "submit" value="Add Band"><br />
+</form>
+<a href ="indexPage1.html"> Back to band signup</a><br />
+<a href = "viewAllMarchingBandsServlet">View list of marching bands</a>
+</body>
+</html>
